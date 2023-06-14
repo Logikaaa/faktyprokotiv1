@@ -24,10 +24,9 @@ img{
 }
 .fakt{
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
     padding: 5px;
     margin: 9px;
+    
 }
 h2{
     text-align: center;
@@ -42,13 +41,21 @@ nav {
     justify-content:space-around;
 }
 
-nav a {
+.nav-link {
     background-color:#FCAFAF;
     color: #FF0000; 
     font-size: 30px;
+    text-decoration: none;
 }
 footer{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRDkJZz1ltDaOur8_IeZOteTbz_NB4ctteA&usqp=CAU);
     background-attachment: fixed;
     color: #FFE9E9;
+}
+.fakty {
+    padding: ;
+}
+
+p{
+    margin: 10px;
 }
